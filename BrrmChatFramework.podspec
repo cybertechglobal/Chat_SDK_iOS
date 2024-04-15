@@ -25,8 +25,8 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-   # spec.license      = "2021 Brrm doo Novi Sad"
-   spec.license      = { :type => "txt", :file => "BrrmChatFrameworkLicense" }
+  spec.license      = "2021 Brrm doo Novi Sad"
+  # spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
