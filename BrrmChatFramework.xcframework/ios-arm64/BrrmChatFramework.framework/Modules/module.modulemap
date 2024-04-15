@@ -1,0 +1,4 @@
+framework module BrrmChatFramework {
+  header "BrrmChatFramework-Swift.h"
+  requires objc
+}

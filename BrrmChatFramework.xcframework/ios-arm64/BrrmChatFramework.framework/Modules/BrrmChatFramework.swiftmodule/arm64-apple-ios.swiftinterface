@@ -1,0 +1,38 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios17.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name BrrmChatFramework
+import Foundation
+import Swift
+import UIKit
+import UserNotifications
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct BrrmGroup {
+  public var id: Swift.String
+  public var name: Swift.String
+  public init(id: Swift.String, name: Swift.String)
+}
+@_hasMissingDesignatedInitializers public class BrrmChat {
+  public static var shared: BrrmChatFramework.BrrmChat
+  public var applicationToken: Swift.String!
+  public var brrmUser: BrrmChatFramework.BrrmUser!
+  public var brrmGroup: BrrmChatFramework.BrrmGroup!
+  public var fmcToken: Swift.String!
+  public func setToken(applicationToken: Swift.String)
+  public func setUser(user: BrrmChatFramework.BrrmUser)
+  public func setGroup(group: BrrmChatFramework.BrrmGroup)
+  public func commitSettings()
+  public func openChatList()
+  public func setFMCToken(fmcToken: Swift.String)
+  public func notification()
+  public func refresh()
+  @objc deinit
+}
+public struct BrrmUser {
+  public var id: Swift.String
+  public var email: Swift.String
+  public var name: Swift.String
+  public init(id: Swift.String, email: Swift.String, name: Swift.String)
+}

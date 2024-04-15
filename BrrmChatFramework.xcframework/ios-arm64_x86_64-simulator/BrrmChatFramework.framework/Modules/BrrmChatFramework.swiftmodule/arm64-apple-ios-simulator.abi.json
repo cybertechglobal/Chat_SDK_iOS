@@ -1,0 +1,1647 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BrrmChatFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BrrmGroup",
+        "printedName": "BrrmGroup",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17BrrmChatFramework0A5GroupV2idSSvp",
+            "mangledName": "$s17BrrmChatFramework0A5GroupV2idSSvp",
+            "moduleName": "BrrmChatFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BrrmChatFramework0A5GroupV2idSSvg",
+                "mangledName": "$s17BrrmChatFramework0A5GroupV2idSSvg",
+                "moduleName": "BrrmChatFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BrrmChatFramework0A5GroupV2idSSvs",
+                "mangledName": "$s17BrrmChatFramework0A5GroupV2idSSvs",
+                "moduleName": "BrrmChatFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BrrmChatFramework0A5GroupV2idSSvM",
+                "mangledName": "$s17BrrmChatFramework0A5GroupV2idSSvM",
+                "moduleName": "BrrmChatFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17BrrmChatFramework0A5GroupV4nameSSvp",
+            "mangledName": "$s17BrrmChatFramework0A5GroupV4nameSSvp",
+            "moduleName": "BrrmChatFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BrrmChatFramework0A5GroupV4nameSSvg",
+                "mangledName": "$s17BrrmChatFramework0A5GroupV4nameSSvg",
+                "moduleName": "BrrmChatFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BrrmChatFramework0A5GroupV4nameSSvs",
+                "mangledName": "$s17BrrmChatFramework0A5GroupV4nameSSvs",
+                "moduleName": "BrrmChatFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BrrmChatFramework0A5GroupV4nameSSvM",
+                "mangledName": "$s17BrrmChatFramework0A5GroupV4nameSSvM",
+                "moduleName": "BrrmChatFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BrrmGroup",
+                "printedName": "BrrmChatFramework.BrrmGroup",
+                "usr": "s:17BrrmChatFramework0A5GroupV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17BrrmChatFramework0A5GroupV2id4nameACSS_SStcfc",
+            "mangledName": "$s17BrrmChatFramework0A5GroupV2id4nameACSS_SStcfc",
+            "moduleName": "BrrmChatFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17BrrmChatFramework0A5GroupV",
+        "mangledName": "$s17BrrmChatFramework0A5GroupV",
+        "moduleName": "BrrmChatFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BrrmChatFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BrrmChatFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "BrrmChatFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BrrmChatFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "BrrmChatFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BrrmChatFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BrrmChatFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "BrrmChatFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BrrmChat",
+        "printedName": "BrrmChat",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BrrmChat",
+                "printedName": "BrrmChatFramework.BrrmChat",
+                "usr": "s:17BrrmChatFramework0aB0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17BrrmChatFramework0aB0C6sharedACvpZ",
+            "mangledName": "$s17BrrmChatFramework0aB0C6sharedACvpZ",
+            "moduleName": "BrrmChatFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BrrmChat",
+                    "printedName": "BrrmChatFramework.BrrmChat",
+                    "usr": "s:17BrrmChatFramework0aB0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BrrmChatFramework0aB0C6sharedACvgZ",
+                "mangledName": "$s17BrrmChatFramework0aB0C6sharedACvgZ",
+                "moduleName": "BrrmChatFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BrrmChat",
+                    "printedName": "BrrmChatFramework.BrrmChat",
+                    "usr": "s:17BrrmChatFramework0aB0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BrrmChatFramework0aB0C6sharedACvsZ",
+                "mangledName": "$s17BrrmChatFramework0aB0C6sharedACvsZ",
+                "moduleName": "BrrmChatFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BrrmChatFramework0aB0C6sharedACvMZ",
+                "mangledName": "$s17BrrmChatFramework0aB0C6sharedACvMZ",
+                "moduleName": "BrrmChatFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "applicationToken",
+            "printedName": "applicationToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17BrrmChatFramework0aB0C16applicationTokenSSSgvp",
+            "mangledName": "$s17BrrmChatFramework0aB0C16applicationTokenSSSgvp",
+            "moduleName": "BrrmChatFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BrrmChatFramework0aB0C16applicationTokenSSSgvg",
+                "mangledName": "$s17BrrmChatFramework0aB0C16applicationTokenSSSgvg",
+                "moduleName": "BrrmChatFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BrrmChatFramework0aB0C16applicationTokenSSSgvs",
+                "mangledName": "$s17BrrmChatFramework0aB0C16applicationTokenSSSgvs",
+                "moduleName": "BrrmChatFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BrrmChatFramework0aB0C16applicationTokenSSSgvM",
+                "mangledName": "$s17BrrmChatFramework0aB0C16applicationTokenSSSgvM",
+                "moduleName": "BrrmChatFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "brrmUser",
+            "printedName": "brrmUser",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "BrrmChatFramework.BrrmUser?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BrrmUser",
+                    "printedName": "BrrmChatFramework.BrrmUser",
+                    "usr": "s:17BrrmChatFramework0A4UserV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17BrrmChatFramework0aB0C8brrmUserAA0aE0VSgvp",
+            "mangledName": "$s17BrrmChatFramework0aB0C8brrmUserAA0aE0VSgvp",
+            "moduleName": "BrrmChatFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "BrrmChatFramework.BrrmUser?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BrrmUser",
+                        "printedName": "BrrmChatFramework.BrrmUser",
+                        "usr": "s:17BrrmChatFramework0A4UserV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BrrmChatFramework0aB0C8brrmUserAA0aE0VSgvg",
+                "mangledName": "$s17BrrmChatFramework0aB0C8brrmUserAA0aE0VSgvg",
+                "moduleName": "BrrmChatFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "BrrmChatFramework.BrrmUser?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BrrmUser",
+                        "printedName": "BrrmChatFramework.BrrmUser",
+                        "usr": "s:17BrrmChatFramework0A4UserV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BrrmChatFramework0aB0C8brrmUserAA0aE0VSgvs",
+                "mangledName": "$s17BrrmChatFramework0aB0C8brrmUserAA0aE0VSgvs",
+                "moduleName": "BrrmChatFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BrrmChatFramework0aB0C8brrmUserAA0aE0VSgvM",
+                "mangledName": "$s17BrrmChatFramework0aB0C8brrmUserAA0aE0VSgvM",
+                "moduleName": "BrrmChatFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "brrmGroup",
+            "printedName": "brrmGroup",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "BrrmChatFramework.BrrmGroup?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BrrmGroup",
+                    "printedName": "BrrmChatFramework.BrrmGroup",
+                    "usr": "s:17BrrmChatFramework0A5GroupV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17BrrmChatFramework0aB0C9brrmGroupAA0aE0VSgvp",
+            "mangledName": "$s17BrrmChatFramework0aB0C9brrmGroupAA0aE0VSgvp",
+            "moduleName": "BrrmChatFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "BrrmChatFramework.BrrmGroup?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BrrmGroup",
+                        "printedName": "BrrmChatFramework.BrrmGroup",
+                        "usr": "s:17BrrmChatFramework0A5GroupV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BrrmChatFramework0aB0C9brrmGroupAA0aE0VSgvg",
+                "mangledName": "$s17BrrmChatFramework0aB0C9brrmGroupAA0aE0VSgvg",
+                "moduleName": "BrrmChatFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "BrrmChatFramework.BrrmGroup?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BrrmGroup",
+                        "printedName": "BrrmChatFramework.BrrmGroup",
+                        "usr": "s:17BrrmChatFramework0A5GroupV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BrrmChatFramework0aB0C9brrmGroupAA0aE0VSgvs",
+                "mangledName": "$s17BrrmChatFramework0aB0C9brrmGroupAA0aE0VSgvs",
+                "moduleName": "BrrmChatFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BrrmChatFramework0aB0C9brrmGroupAA0aE0VSgvM",
+                "mangledName": "$s17BrrmChatFramework0aB0C9brrmGroupAA0aE0VSgvM",
+                "moduleName": "BrrmChatFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fmcToken",
+            "printedName": "fmcToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17BrrmChatFramework0aB0C8fmcTokenSSSgvp",
+            "mangledName": "$s17BrrmChatFramework0aB0C8fmcTokenSSSgvp",
+            "moduleName": "BrrmChatFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BrrmChatFramework0aB0C8fmcTokenSSSgvg",
+                "mangledName": "$s17BrrmChatFramework0aB0C8fmcTokenSSSgvg",
+                "moduleName": "BrrmChatFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BrrmChatFramework0aB0C8fmcTokenSSSgvs",
+                "mangledName": "$s17BrrmChatFramework0aB0C8fmcTokenSSSgvs",
+                "moduleName": "BrrmChatFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BrrmChatFramework0aB0C8fmcTokenSSSgvM",
+                "mangledName": "$s17BrrmChatFramework0aB0C8fmcTokenSSSgvM",
+                "moduleName": "BrrmChatFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setToken",
+            "printedName": "setToken(applicationToken:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17BrrmChatFramework0aB0C8setToken011applicationE0ySS_tF",
+            "mangledName": "$s17BrrmChatFramework0aB0C8setToken011applicationE0ySS_tF",
+            "moduleName": "BrrmChatFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUser",
+            "printedName": "setUser(user:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BrrmUser",
+                "printedName": "BrrmChatFramework.BrrmUser",
+                "usr": "s:17BrrmChatFramework0A4UserV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17BrrmChatFramework0aB0C7setUser4useryAA0aE0V_tF",
+            "mangledName": "$s17BrrmChatFramework0aB0C7setUser4useryAA0aE0V_tF",
+            "moduleName": "BrrmChatFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setGroup",
+            "printedName": "setGroup(group:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BrrmGroup",
+                "printedName": "BrrmChatFramework.BrrmGroup",
+                "usr": "s:17BrrmChatFramework0A5GroupV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17BrrmChatFramework0aB0C8setGroup5groupyAA0aE0V_tF",
+            "mangledName": "$s17BrrmChatFramework0aB0C8setGroup5groupyAA0aE0V_tF",
+            "moduleName": "BrrmChatFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "commitSettings",
+            "printedName": "commitSettings()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17BrrmChatFramework0aB0C14commitSettingsyyF",
+            "mangledName": "$s17BrrmChatFramework0aB0C14commitSettingsyyF",
+            "moduleName": "BrrmChatFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openChatList",
+            "printedName": "openChatList()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17BrrmChatFramework0aB0C04openB4ListyyF",
+            "mangledName": "$s17BrrmChatFramework0aB0C04openB4ListyyF",
+            "moduleName": "BrrmChatFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setFMCToken",
+            "printedName": "setFMCToken(fmcToken:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17BrrmChatFramework0aB0C11setFMCToken8fmcTokenySS_tF",
+            "mangledName": "$s17BrrmChatFramework0aB0C11setFMCToken8fmcTokenySS_tF",
+            "moduleName": "BrrmChatFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notification",
+            "printedName": "notification()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17BrrmChatFramework0aB0C12notificationyyF",
+            "mangledName": "$s17BrrmChatFramework0aB0C12notificationyyF",
+            "moduleName": "BrrmChatFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "refresh",
+            "printedName": "refresh()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17BrrmChatFramework0aB0C7refreshyyF",
+            "mangledName": "$s17BrrmChatFramework0aB0C7refreshyyF",
+            "moduleName": "BrrmChatFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17BrrmChatFramework0aB0C",
+        "mangledName": "$s17BrrmChatFramework0aB0C",
+        "moduleName": "BrrmChatFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BrrmChatFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BrrmChatFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BrrmChatFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BrrmChatFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BrrmChatFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BrrmChatFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BrrmChatFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "BrrmChatFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "BrrmChatFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BrrmChatFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BrrmChatFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BrrmChatFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "BrrmChatFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BrrmChatFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BrrmChatFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BrrmUser",
+        "printedName": "BrrmUser",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17BrrmChatFramework0A4UserV2idSSvp",
+            "mangledName": "$s17BrrmChatFramework0A4UserV2idSSvp",
+            "moduleName": "BrrmChatFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BrrmChatFramework0A4UserV2idSSvg",
+                "mangledName": "$s17BrrmChatFramework0A4UserV2idSSvg",
+                "moduleName": "BrrmChatFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BrrmChatFramework0A4UserV2idSSvs",
+                "mangledName": "$s17BrrmChatFramework0A4UserV2idSSvs",
+                "moduleName": "BrrmChatFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BrrmChatFramework0A4UserV2idSSvM",
+                "mangledName": "$s17BrrmChatFramework0A4UserV2idSSvM",
+                "moduleName": "BrrmChatFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "email",
+            "printedName": "email",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17BrrmChatFramework0A4UserV5emailSSvp",
+            "mangledName": "$s17BrrmChatFramework0A4UserV5emailSSvp",
+            "moduleName": "BrrmChatFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BrrmChatFramework0A4UserV5emailSSvg",
+                "mangledName": "$s17BrrmChatFramework0A4UserV5emailSSvg",
+                "moduleName": "BrrmChatFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BrrmChatFramework0A4UserV5emailSSvs",
+                "mangledName": "$s17BrrmChatFramework0A4UserV5emailSSvs",
+                "moduleName": "BrrmChatFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BrrmChatFramework0A4UserV5emailSSvM",
+                "mangledName": "$s17BrrmChatFramework0A4UserV5emailSSvM",
+                "moduleName": "BrrmChatFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17BrrmChatFramework0A4UserV4nameSSvp",
+            "mangledName": "$s17BrrmChatFramework0A4UserV4nameSSvp",
+            "moduleName": "BrrmChatFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BrrmChatFramework0A4UserV4nameSSvg",
+                "mangledName": "$s17BrrmChatFramework0A4UserV4nameSSvg",
+                "moduleName": "BrrmChatFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BrrmChatFramework0A4UserV4nameSSvs",
+                "mangledName": "$s17BrrmChatFramework0A4UserV4nameSSvs",
+                "moduleName": "BrrmChatFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BrrmChatFramework0A4UserV4nameSSvM",
+                "mangledName": "$s17BrrmChatFramework0A4UserV4nameSSvM",
+                "moduleName": "BrrmChatFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:email:name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BrrmUser",
+                "printedName": "BrrmChatFramework.BrrmUser",
+                "usr": "s:17BrrmChatFramework0A4UserV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17BrrmChatFramework0A4UserV2id5email4nameACSS_S2Stcfc",
+            "mangledName": "$s17BrrmChatFramework0A4UserV2id5email4nameACSS_S2Stcfc",
+            "moduleName": "BrrmChatFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17BrrmChatFramework0A4UserV",
+        "mangledName": "$s17BrrmChatFramework0A4UserV",
+        "moduleName": "BrrmChatFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Enum\/BrrmChatConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 174,
+      "length": 48,
+      "value": "\"https:\/\/testwidget.myautohouse.eu?platform=ios\""
+    },
+    {
+      "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Enum\/BrrmChatConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 248,
+      "length": 14,
+      "value": "\"mobileClient\""
+    },
+    {
+      "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Enum\/BrrmChatConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 174,
+      "length": 48,
+      "value": "\"https:\/\/testwidget.myautohouse.eu?platform=ios\""
+    },
+    {
+      "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Enum\/BrrmChatConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 248,
+      "length": 14,
+      "value": "\"mobileClient\""
+    },
+    {
+      "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Enum\/EventDataKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 166,
+      "length": 9,
+      "value": "\"command\""
+    },
+    {
+      "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Enum\/EventDataKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 200,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Enum\/EventDataKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 166,
+      "length": 9,
+      "value": "\"command\""
+    },
+    {
+      "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Enum\/EventDataKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 200,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Utilities\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 412,
+      "length": 10,
+      "value": "\"[‼️]\""
+    },
+    {
+      "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Utilities\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 445,
+      "length": 10,
+      "value": "\"[ℹ️]\""
+    },
+    {
+      "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Utilities\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 477,
+      "length": 8,
+      "value": "\"[💬]\""
+    },
+    {
+      "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Utilities\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 508,
+      "length": 8,
+      "value": "\"[🔬]\""
+    },
+    {
+      "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Utilities\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 541,
+      "length": 10,
+      "value": "\"[⚠️]\""
+    },
+    {
+      "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Utilities\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 576,
+      "length": 8,
+      "value": "\"[🔥]\""
+    },
+    {
+      "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Utilities\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 412,
+      "length": 10,
+      "value": "\"[‼️]\""
+    },
+    {
+      "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Utilities\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 445,
+      "length": 10,
+      "value": "\"[ℹ️]\""
+    },
+    {
+      "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Utilities\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 477,
+      "length": 8,
+      "value": "\"[💬]\""
+    },
+    {
+      "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Utilities\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 508,
+      "length": 8,
+      "value": "\"[🔬]\""
+    },
+    {
+      "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Utilities\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 541,
+      "length": 10,
+      "value": "\"[⚠️]\""
+    },
+    {
+      "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Utilities\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 576,
+      "length": 8,
+      "value": "\"[🔥]\""
+    },
+    {
+      "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Utilities\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 1001,
+      "length": 24,
+      "value": "\"yyyy-MM-dd hh:mm:ssSSS\""
+    },
+    {
+      "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/ChatViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 149,
+      "length": 18,
+      "value": "\"BrrmChatFramework.ChatViewController\""
+    }
+  ]
+}
