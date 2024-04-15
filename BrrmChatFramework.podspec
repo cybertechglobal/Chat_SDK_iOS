@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
 
  
   spec.name         = "BrrmChatFramework"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "Chat framework"
   spec.description  = "This is a framework developed by the Brrm company as a special module in order to achieve communication"
 
@@ -71,12 +71,13 @@ Pod::Spec.new do |spec|
   #
   #  CocoaPods is smart about how it includes source code. For source files
   #  giving a folder will include any swift, h, m, mm, c & cpp files.
-  #  For header files it will include any header in the folder.
+  #  For header files itz will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "BrrmChatFramework*"
-
+  #spec.source_files = "Framework/BrrmChatFramework.xcframework/**/*"
+    spec.vendored_frameworks = "BrrmChatFramework.xcframework"
+    spec.static_framework = true
   # spec.public_header_files = "Classes/**/*.h"
 
 
