@@ -11,11 +11,10 @@ Pod::Spec.new do |spec|
  
   spec.name         = "BrrmChatFramework"
   spec.version      = "1.0.0"
-  spec.summary      = "A short description of BrrmChatFramework."
-  spec.description  = <<-DESC
-                   DESC
+  spec.summary      = "Chat framework"
+  spec.description  = "This is a framework developed by the Brrm company as a special module in order to achieve communication"
 
-  spec.homepage     = "http://EXAMPLE/BrrmChatFramework"
+  spec.homepage     = "https://www.brrm.eu/#about-us"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -26,8 +25,8 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+   # spec.license      = "2021 Brrm doo Novi Sad"
+   spec.license      = { :type => "txt", :file => "BrrmChatFrameworkLicense" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -54,12 +53,9 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios
   # spec.platform     = :ios, "5.0"
 
-  #  When using multiple platforms
-  # spec.ios.deployment_target = "12.0"
-  # spec.osx.deployment_target = "10.7"
-  # spec.watchos.deployment_target = "2.0"
-  # spec.tvos.deployment_target = "9.0"
-  # spec.visionos.deployment_target = "1.0"
+  
+    spec.ios.deployment_target = "12.0"
+ 
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -79,8 +75,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "BrrmChatFramework*"
 
   # spec.public_header_files = "Classes/**/*.h"
 
