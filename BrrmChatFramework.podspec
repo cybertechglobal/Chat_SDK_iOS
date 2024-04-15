@@ -76,8 +76,9 @@ Pod::Spec.new do |spec|
   #
 
   #spec.source_files = "Framework/BrrmChatFramework.xcframework/**/*"
-    spec.vendored_frameworks = "BrrmChatFramework.xcframework"
-    spec.static_framework = true
+    spec.ios.vendored_frameworks = 'BrrmChatFramework.xcframework'
+    spec.ios.preserve_paths      = 'BrrmChatFramework.xcframework'
+  
   # spec.public_header_files = "Classes/**/*.h"
 
 
