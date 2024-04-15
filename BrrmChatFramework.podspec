@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
 
  
   spec.name         = "BrrmChatFramework"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "Chat framework"
   spec.description  = "This is a framework developed by the Brrm company as a special module in order to achieve communication"
 
