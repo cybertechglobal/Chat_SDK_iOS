@@ -9,10 +9,11 @@
 Pod::Spec.new do |spec|
 
  
-  spec.name         = "BrrmChatFramework"
-  spec.version      = "1.0.2"
-  spec.summary      = "Chat framework"
-  spec.description  = "This is a framework developed by the Brrm company as a special module in order to achieve communication"
+  spec.name         = "BrrmChatSDK"
+  spec.version      = "1.0.3"
+  spec.summary      = "This is a framework developed by the Brrm company as a special module in order to achieve communication. The goal of this framework is to enable the quick exchange of necessary information within the application between car sellers and buyers. The chat developed in this way will be able to be integrated into other projects within which it will contribute to faster and more efficient work of support."
+  spec.description  = "This is a framework developed by the Brrm company as a special module in order to achieve communication. Through the admin panel, administrators from the dealership will be able to communicate directly with clients, in real time. The goal of this framework is primarily to speed up the direct exchange of necessary information within the application itself. Faster communication between buyers and sellers of cars will speed up the conclusion of agreements and the conclusion of the deal.
+The chat developed in this way will be able to be integrated into other projects where it will primarily contribute to faster and more efficient work of support. It will also speed up communication and contribute to faster finalization of business cooperation. Chat integrated into the application adds a new level of information protection. All information exchanged, between merchants or service providers and customers, remains within the application through which the chat is used."
 
   spec.homepage     = "https://www.brrm.eu/#about-us"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
