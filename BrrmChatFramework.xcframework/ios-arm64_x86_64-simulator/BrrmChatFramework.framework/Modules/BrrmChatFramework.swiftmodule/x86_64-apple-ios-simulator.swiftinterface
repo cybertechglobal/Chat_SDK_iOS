@@ -22,10 +22,9 @@ public struct BrrmGroup : Swift.Codable {
   public var applicationToken: Swift.String!
   public var brrmUser: BrrmChatFramework.BrrmUser!
   public var brrmGroup: BrrmChatFramework.BrrmGroup!
-  public var fmcToken: Swift.String!
+  public var fcmToken: Swift.String!
   public func setToken(applicationToken: Swift.String)
-  public func setUser(user: BrrmChatFramework.BrrmUser)
-  public func setGroup(group: BrrmChatFramework.BrrmGroup)
+  public func register(user: BrrmChatFramework.BrrmUser, group: BrrmChatFramework.BrrmGroup)
   public func openChatList()
   public func setFMCToken(fmcToken: Swift.String)
   public func notification(userInfo: [Swift.AnyHashable : Any])

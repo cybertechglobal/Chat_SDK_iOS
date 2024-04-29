@@ -804,8 +804,8 @@
           },
           {
             "kind": "Var",
-            "name": "fmcToken",
-            "printedName": "fmcToken",
+            "name": "fcmToken",
+            "printedName": "fcmToken",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -823,8 +823,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:17BrrmChatFramework0aB0C8fmcTokenSSSgvp",
-            "mangledName": "$s17BrrmChatFramework0aB0C8fmcTokenSSSgvp",
+            "usr": "s:17BrrmChatFramework0aB0C8fcmTokenSSSgvp",
+            "mangledName": "$s17BrrmChatFramework0aB0C8fcmTokenSSSgvp",
             "moduleName": "BrrmChatFramework",
             "declAttributes": [
               "HasInitialValue",
@@ -854,8 +854,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17BrrmChatFramework0aB0C8fmcTokenSSSgvg",
-                "mangledName": "$s17BrrmChatFramework0aB0C8fmcTokenSSSgvg",
+                "usr": "s:17BrrmChatFramework0aB0C8fcmTokenSSSgvg",
+                "mangledName": "$s17BrrmChatFramework0aB0C8fcmTokenSSSgvg",
                 "moduleName": "BrrmChatFramework",
                 "implicit": true,
                 "accessorKind": "get"
@@ -886,8 +886,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17BrrmChatFramework0aB0C8fmcTokenSSSgvs",
-                "mangledName": "$s17BrrmChatFramework0aB0C8fmcTokenSSSgvs",
+                "usr": "s:17BrrmChatFramework0aB0C8fcmTokenSSSgvs",
+                "mangledName": "$s17BrrmChatFramework0aB0C8fcmTokenSSSgvs",
                 "moduleName": "BrrmChatFramework",
                 "implicit": true,
                 "accessorKind": "set"
@@ -904,8 +904,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17BrrmChatFramework0aB0C8fmcTokenSSSgvM",
-                "mangledName": "$s17BrrmChatFramework0aB0C8fmcTokenSSSgvM",
+                "usr": "s:17BrrmChatFramework0aB0C8fcmTokenSSSgvM",
+                "mangledName": "$s17BrrmChatFramework0aB0C8fcmTokenSSSgvM",
                 "moduleName": "BrrmChatFramework",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -940,8 +940,8 @@
           },
           {
             "kind": "Function",
-            "name": "setUser",
-            "printedName": "setUser(user:)",
+            "name": "register",
+            "printedName": "register(user:group:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -953,26 +953,6 @@
                 "name": "BrrmUser",
                 "printedName": "BrrmChatFramework.BrrmUser",
                 "usr": "s:17BrrmChatFramework0A4UserV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:17BrrmChatFramework0aB0C7setUser4useryAA0aE0V_tF",
-            "mangledName": "$s17BrrmChatFramework0aB0C7setUser4useryAA0aE0V_tF",
-            "moduleName": "BrrmChatFramework",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setGroup",
-            "printedName": "setGroup(group:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
               },
               {
                 "kind": "TypeNominal",
@@ -982,8 +962,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:17BrrmChatFramework0aB0C8setGroup5groupyAA0aE0V_tF",
-            "mangledName": "$s17BrrmChatFramework0aB0C8setGroup5groupyAA0aE0V_tF",
+            "usr": "s:17BrrmChatFramework0aB0C8register4user5groupyAA0A4UserV_AA0A5GroupVtF",
+            "mangledName": "$s17BrrmChatFramework0aB0C8register4user5groupyAA0A4UserV_AA0A5GroupVtF",
             "moduleName": "BrrmChatFramework",
             "declAttributes": [
               "AccessControl"
@@ -1208,10 +1188,50 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BrrmChatFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Security",
         "printedName": "Security",
         "declKind": "Import",
         "moduleName": "BrrmChatFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BrrmChatFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BrrmChatFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BrrmChatFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -1279,6 +1299,43 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BrrmChatFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BrrmChatFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BrrmChatFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BrrmChatFramework"
       },
       {
         "kind": "Import",
@@ -1473,6 +1530,26 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BrrmChatFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BrrmChatFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "NotificationCenter",
         "printedName": "NotificationCenter",
         "declKind": "Import",
@@ -1537,6 +1614,48 @@
       "offset": 372,
       "length": 19,
       "value": "\"com.chatFramework\""
+    },
+    {
+      "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Web Service\/Constants\/ServerConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 168,
+      "length": 29,
+      "value": "\"https:\/\/testchat.brrm.eu\/v1\""
+    },
+    {
+      "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Web Service\/Constants\/ServerConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 214,
+      "length": 10,
+      "value": "\"\/appAuth\""
+    },
+    {
+      "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Web Service\/Constants\/ServerConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 244,
+      "length": 10,
+      "value": "\"\/devices\""
+    },
+    {
+      "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Web Service\/Constants\/ServerConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 168,
+      "length": 29,
+      "value": "\"https:\/\/testchat.brrm.eu\/v1\""
+    },
+    {
+      "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Web Service\/Constants\/ServerConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 214,
+      "length": 10,
+      "value": "\"\/appAuth\""
+    },
+    {
+      "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Web Service\/Constants\/ServerConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 244,
+      "length": 10,
+      "value": "\"\/devices\""
     },
     {
       "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Enum\/EventDataKeys.swift",
@@ -1656,6 +1775,34 @@
       "offset": 1001,
       "length": 24,
       "value": "\"yyyy-MM-dd hh:mm:ssSSS\""
+    },
+    {
+      "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Enum\/HttpMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 158,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Enum\/HttpMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 180,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Enum\/HttpMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 158,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Enum\/HttpMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 180,
+      "length": 6,
+      "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/ChatViewController.swift",
