@@ -272,6 +272,52 @@
             "implicit": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(json:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "BrrmChatFramework.BrrmGroup?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BrrmGroup",
+                    "printedName": "BrrmChatFramework.BrrmGroup",
+                    "usr": "s:17BrrmChatFramework0A5GroupV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17BrrmChatFramework0A5GroupV4jsonACSgSDySSypG_tcfc",
+            "mangledName": "$s17BrrmChatFramework0A5GroupV4jsonACSgSDySSypG_tcfc",
+            "moduleName": "BrrmChatFramework",
+            "isFromExtension": true,
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Struct",
@@ -1492,6 +1538,52 @@
             "implicit": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(josn:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "BrrmChatFramework.BrrmUser?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BrrmUser",
+                    "printedName": "BrrmChatFramework.BrrmUser",
+                    "usr": "s:17BrrmChatFramework0A4UserV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17BrrmChatFramework0A4UserV4josnACSgSDySSypG_tcfc",
+            "mangledName": "$s17BrrmChatFramework0A4UserV4josnACSgSDySSypG_tcfc",
+            "moduleName": "BrrmChatFramework",
+            "isFromExtension": true,
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Struct",

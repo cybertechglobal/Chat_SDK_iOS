@@ -17,6 +17,9 @@ public struct BrrmGroup : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+extension BrrmChatFramework.BrrmGroup {
+  public init?(json: [Swift.String : Any])
+}
 @_hasMissingDesignatedInitializers public class BrrmChat {
   public static var shared: BrrmChatFramework.BrrmChat
   public var applicationToken: Swift.String!
@@ -39,4 +42,7 @@ public struct BrrmUser : Swift.Codable {
   public init(id: Swift.String, email: Swift.String, name: Swift.String, isGroupAdmin: Swift.Bool = false)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+extension BrrmChatFramework.BrrmUser {
+  public init?(josn: [Swift.String : Any])
 }
