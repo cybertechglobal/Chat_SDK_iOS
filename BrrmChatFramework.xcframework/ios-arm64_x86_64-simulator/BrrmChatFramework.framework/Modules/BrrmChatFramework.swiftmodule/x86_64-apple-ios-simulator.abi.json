@@ -1542,7 +1542,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(josn:)",
+            "printedName": "init(json:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1579,8 +1579,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:17BrrmChatFramework0A4UserV4josnACSgSDySSypG_tcfc",
-            "mangledName": "$s17BrrmChatFramework0A4UserV4josnACSgSDySSypG_tcfc",
+            "usr": "s:17BrrmChatFramework0A4UserV4jsonACSgSDySSypG_tcfc",
+            "mangledName": "$s17BrrmChatFramework0A4UserV4jsonACSgSDySSypG_tcfc",
             "moduleName": "BrrmChatFramework",
             "isFromExtension": true,
             "init_kind": "Designated"

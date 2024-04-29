@@ -44,5 +44,5 @@ public struct BrrmUser : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension BrrmChatFramework.BrrmUser {
-  public init?(josn: [Swift.String : Any])
+  public init?(json: [Swift.String : Any])
 }
