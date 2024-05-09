@@ -855,7 +855,7 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
+                "name": "Optional",
                 "printedName": "Swift.String?",
                 "children": [
                   {
@@ -886,7 +886,7 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
+                    "name": "Optional",
                     "printedName": "Swift.String?",
                     "children": [
                       {
@@ -918,7 +918,7 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
+                    "name": "Optional",
                     "printedName": "Swift.String?",
                     "children": [
                       {
@@ -987,7 +987,7 @@
           {
             "kind": "Function",
             "name": "register",
-            "printedName": "register(user:group:)",
+            "printedName": "register(user:group:fcmToken:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1005,11 +1005,25 @@
                 "name": "BrrmGroup",
                 "printedName": "BrrmChatFramework.BrrmGroup",
                 "usr": "s:17BrrmChatFramework0A5GroupV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:17BrrmChatFramework0aB0C8register4user5groupyAA0A4UserV_AA0A5GroupVtF",
-            "mangledName": "$s17BrrmChatFramework0aB0C8register4user5groupyAA0A4UserV_AA0A5GroupVtF",
+            "usr": "s:17BrrmChatFramework0aB0C8register4user5group8fcmTokenyAA0A4UserV_AA0A5GroupVSSSgtF",
+            "mangledName": "$s17BrrmChatFramework0aB0C8register4user5group8fcmTokenyAA0A4UserV_AA0A5GroupVSSSgtF",
             "moduleName": "BrrmChatFramework",
             "declAttributes": [
               "AccessControl"
@@ -1039,7 +1053,7 @@
           {
             "kind": "Function",
             "name": "setFMCToken",
-            "printedName": "setFMCToken(fmcToken:)",
+            "printedName": "setFMCToken(fcmToken:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1054,8 +1068,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:17BrrmChatFramework0aB0C11setFMCToken8fmcTokenySS_tF",
-            "mangledName": "$s17BrrmChatFramework0aB0C11setFMCToken8fmcTokenySS_tF",
+            "usr": "s:17BrrmChatFramework0aB0C11setFMCToken8fcmTokenySS_tF",
+            "mangledName": "$s17BrrmChatFramework0aB0C11setFMCToken8fcmTokenySS_tF",
             "moduleName": "BrrmChatFramework",
             "declAttributes": [
               "AccessControl"

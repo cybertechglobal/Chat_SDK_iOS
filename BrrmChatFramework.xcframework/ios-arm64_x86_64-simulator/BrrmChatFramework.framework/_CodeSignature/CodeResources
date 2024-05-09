@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/BrrmChatFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		tDLDMReEcugj9Jx5/GKzLMc/Oec=
+		4Jj8M8L01Stsj+ecR8WONll6jKE=
 		</data>
 		<key>Modules/BrrmChatFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Ce7Zh8tbRgD4P1W6R1qhMkGHXjU=
+		K/RIlWUuLH+FLXvoUGBJErDQfbI=
 		</data>
 		<key>Modules/BrrmChatFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/BrrmChatFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Ce7Zh8tbRgD4P1W6R1qhMkGHXjU=
+		K/RIlWUuLH+FLXvoUGBJErDQfbI=
 		</data>
 		<key>Modules/BrrmChatFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		CVqxBLTQ/kOc+lYlRrozgOjczmQ=
+		nGiavjrpDq1vZLeE7TBfEonhjcw=
 		</data>
 		<key>Modules/BrrmChatFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		tDLDMReEcugj9Jx5/GKzLMc/Oec=
+		4Jj8M8L01Stsj+ecR8WONll6jKE=
 		</data>
 		<key>Modules/BrrmChatFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		5LAhpUo66ooOfby2bXWO8m5SVxE=
+		YaYCn87nOFEeZLBx0EuVfpgZw10=
 		</data>
 		<key>Modules/BrrmChatFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/BrrmChatFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		5LAhpUo66ooOfby2bXWO8m5SVxE=
+		YaYCn87nOFEeZLBx0EuVfpgZw10=
 		</data>
 		<key>Modules/BrrmChatFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		WhL5BuRy2xGw+8Pm9LGdOXiSOEI=
+		FEERGRIJxCmvaMO7Ey0Ccr0E5C4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FeZNwTbOWo2o7v8TRboDRKavQLcw2bVpkyMOmIhH1XY=
+			vxIs77cdWE+ugKIeCJ3rRFCa7tEPzy5LtDr0PJFaS9o=
 			</data>
 		</dict>
 		<key>Modules/BrrmChatFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			y7Ry/AQfn9NE+62+1ur0CM1c6VeaodMUQCIjXj6Y5l8=
+			KzPJlj3HqXw9OjFnkJ0y2j54ba03QzIneAxgkItSews=
 			</data>
 		</dict>
 		<key>Modules/BrrmChatFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y7Ry/AQfn9NE+62+1ur0CM1c6VeaodMUQCIjXj6Y5l8=
+			KzPJlj3HqXw9OjFnkJ0y2j54ba03QzIneAxgkItSews=
 			</data>
 		</dict>
 		<key>Modules/BrrmChatFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8bkaGYyfEe4E3YiDcjTPPrwT/TBMF2SHtdEF7SY1YH0=
+			CTAonbL/KN6n/8NE5MDUesymhbKhkaKMfNIJcs5+fyo=
 			</data>
 		</dict>
 		<key>Modules/BrrmChatFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FeZNwTbOWo2o7v8TRboDRKavQLcw2bVpkyMOmIhH1XY=
+			vxIs77cdWE+ugKIeCJ3rRFCa7tEPzy5LtDr0PJFaS9o=
 			</data>
 		</dict>
 		<key>Modules/BrrmChatFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bry9e/AQvtAaBCKjJFtTwkiYxIfD1LNE8IEcFWy0Ikc=
+			UGNKZ9pzRhj06ZNIa4rgY7C9oscByMQ4F/KhEcLkq64=
 			</data>
 		</dict>
 		<key>Modules/BrrmChatFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bry9e/AQvtAaBCKjJFtTwkiYxIfD1LNE8IEcFWy0Ikc=
+			UGNKZ9pzRhj06ZNIa4rgY7C9oscByMQ4F/KhEcLkq64=
 			</data>
 		</dict>
 		<key>Modules/BrrmChatFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iyprXGzRorIMZqxkQQEvpTf5nghODN+FBjlPAoH6JqA=
+			rYMhfZCPOIfHGgnTraLPLWUMlU0HBd/3y18AhR+YImE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -25,11 +25,11 @@ extension BrrmChatFramework.BrrmGroup {
   public var applicationToken: Swift.String!
   public var brrmUser: BrrmChatFramework.BrrmUser!
   public var brrmGroup: BrrmChatFramework.BrrmGroup!
-  public var fcmToken: Swift.String!
+  public var fcmToken: Swift.String?
   public func setToken(applicationToken: Swift.String)
-  public func register(user: BrrmChatFramework.BrrmUser, group: BrrmChatFramework.BrrmGroup)
+  public func register(user: BrrmChatFramework.BrrmUser, group: BrrmChatFramework.BrrmGroup, fcmToken: Swift.String?)
   public func openChatList()
-  public func setFMCToken(fmcToken: Swift.String)
+  public func setFMCToken(fcmToken: Swift.String)
   public func notification(userInfo: [Swift.AnyHashable : Any])
   public func refresh()
   @objc deinit
