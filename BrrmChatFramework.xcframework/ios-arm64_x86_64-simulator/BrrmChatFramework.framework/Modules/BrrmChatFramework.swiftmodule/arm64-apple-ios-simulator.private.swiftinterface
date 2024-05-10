@@ -22,21 +22,13 @@ extension BrrmChatFramework.BrrmGroup {
 }
 @_hasMissingDesignatedInitializers public class BrrmChat {
   public static var shared: BrrmChatFramework.BrrmChat
-  public var applicationToken: Swift.String!
-  public var brrmUser: BrrmChatFramework.BrrmUser!
-  public var brrmGroup: BrrmChatFramework.BrrmGroup!
-  public var fcmToken: Swift.String?
   public func setToken(applicationToken: Swift.String)
   public func register(user: BrrmChatFramework.BrrmUser, group: BrrmChatFramework.BrrmGroup, fcmToken: Swift.String?)
   public func openChatList()
   public func setFMCToken(fcmToken: Swift.String)
   public func notification(userInfo: [Swift.AnyHashable : Any])
-  public func refresh()
-  @objc deinit
-}
-extension BrrmChatFramework.BrrmChat {
   public func isBrrmChatNotification(userInfo: [Swift.AnyHashable : Any]) -> Swift.Bool
-  public func openSpecificChat(userInfo: [Swift.AnyHashable : Any])
+  @objc deinit
 }
 public struct BrrmUser : Swift.Codable {
   public init(id: Swift.String, email: Swift.String, name: Swift.String, isGroupAdmin: Swift.Bool = false)
