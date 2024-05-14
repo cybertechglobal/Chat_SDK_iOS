@@ -1166,28 +1166,28 @@
     {
       "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Enum\/BrrmChatConstant.swift",
       "kind": "StringLiteral",
-      "offset": 174,
-      "length": 48,
-      "value": "\"https:\/\/testwidget.myautohouse.eu?platform=ios\""
+      "offset": 266,
+      "length": 42,
+      "value": "\"https:\/\/widget.chat.brrm.eu?platform=ios\""
     },
     {
       "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Enum\/BrrmChatConstant.swift",
       "kind": "StringLiteral",
-      "offset": 248,
+      "offset": 335,
       "length": 14,
       "value": "\"mobileClient\""
     },
     {
       "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Enum\/BrrmChatConstant.swift",
       "kind": "StringLiteral",
-      "offset": 174,
-      "length": 48,
-      "value": "\"https:\/\/testwidget.myautohouse.eu?platform=ios\""
+      "offset": 266,
+      "length": 42,
+      "value": "\"https:\/\/widget.chat.brrm.eu?platform=ios\""
     },
     {
       "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Enum\/BrrmChatConstant.swift",
       "kind": "StringLiteral",
-      "offset": 248,
+      "offset": 335,
       "length": 14,
       "value": "\"mobileClient\""
     },
@@ -1222,42 +1222,42 @@
     {
       "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Web Service\/Constants\/ServerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 168,
+      "offset": 240,
       "length": 29,
-      "value": "\"https:\/\/testchat.brrm.eu\/v1\""
+      "value": "\"https:\/\/api.chat.brrm.eu\/v1\""
     },
     {
       "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Web Service\/Constants\/ServerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 214,
+      "offset": 286,
       "length": 10,
       "value": "\"\/appAuth\""
     },
     {
       "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Web Service\/Constants\/ServerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 244,
+      "offset": 316,
       "length": 10,
       "value": "\"\/devices\""
     },
     {
       "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Web Service\/Constants\/ServerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 168,
+      "offset": 240,
       "length": 29,
-      "value": "\"https:\/\/testchat.brrm.eu\/v1\""
+      "value": "\"https:\/\/api.chat.brrm.eu\/v1\""
     },
     {
       "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Web Service\/Constants\/ServerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 214,
+      "offset": 286,
       "length": 10,
       "value": "\"\/appAuth\""
     },
     {
       "filePath": "\/Users\/stefandjordjevic\/Desktop\/WORK\/TRIBWERK\/iOS\/brrmChat\/brrmChat\/Web Service\/Constants\/ServerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 244,
+      "offset": 316,
       "length": 10,
       "value": "\"\/devices\""
     },
